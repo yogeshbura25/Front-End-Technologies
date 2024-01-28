@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top-section {
+    background-color: #894bca;
+    background-size: cover;
+    height: 35vh;
+}
+
+.top-section-container {
+    height: 185px;
+    width: 168px;
+    margin-left: auto;
+}
+
+.top-section-mainheading {
+    color: #ffffff;
+    font-family: "Bree-Serif";
+    font-size: 25px;
+    width: 120px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.bottomsection {
+    background-color: #ffffff;
+    height: 70vh;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.bottom-section-heading {
+    color: #f780c3;
+    font-family: "Bree-Serif";
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.bottom-section-card {
+    height: 50px;
+    width: 50px;
+}
+
+.bottomsection-store {
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.store-description {
+    color: #7b8794;
+    font-size: 13px;
+    width: 400px;
+    padding: 6px;
+}

@@ -1,0 +1,20 @@
+
+.logo {
+    height: 270px;
+    width: 290px;
+
+
+}
+
+.main-heading {
+    color: #323f4b;
+    font-size: 18px;
+    font-family: "Roboto";
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.description {
+    color: #7b8794;
+}

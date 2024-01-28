@@ -1,0 +1,117 @@
+
+.homepage-section {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.homepage-introduction {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 35vh;
+    padding-top: 40px;
+}
+
+.company-name {
+    color: #f19116;
+    font-size: 25px;
+    font-family: "Bree-serif";
+    font-weight: bold;
+}
+
+.company-title {
+    color: #7b8794;
+    font-family: "Bree-serif";
+    font-weight: 900;
+}
+
+.homepage-button {
+    background-color: #f19116;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.description-of-list-of-flat {
+    background-color: #222222;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flat-list-info {
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.flat-image-size {
+    height: 155px;
+    width: 90px;
+}
+
+.flat-capacity-heading {
+    color: #0f0e46;
+    font-weight: bold;
+    font-family: "Bree-serif";
+    font-size: 20px;
+}
+
+.flats-description {
+    color: #6c6b70;
+    font-family: "Bree-serif";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.padding {
+    padding: 8px;
+}
+
+.company-name-list-of-flat {
+    color: #f19116;
+    font-size: 25px;
+    font-family: "Bree-serif";
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.homepage-button2 {
+    background-color: #f19116;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+    height: 40px;
+    border-width: 0px;
+}
+
+.flats-competle-description {
+    height: 40vh;
+    width: 100vw;
+}
+
+.flats-location {
+    height: 20px;
+}
+
+.flat-address {
+    color: #ffffff;
+    font-family: "Bree-serif";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.horizontal-line {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.button-container {
+    text-align: center;
+}

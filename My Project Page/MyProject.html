@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="MyProject.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="myprojecthomepage">
+        <div class="d-flex flex-column align-items-center">
+            <img class="homepage-section" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" />
+            <h1 class="homepage-mainheading">My Projects</h1>
+            <p class="homepage-description ">These are a few my Static Website projects that I have developed using HTML,CSS and Bootstrap</p>
+            <div class="d-flex flex-row">
+                <img onclick="display('sectionadvancedtechnologie')" class="homepage-bottom homepage-bottom-margin" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" />
+                <img onclick="display('sectiondiwalipage')" class="homepage-bottom homepage-bottom-margin" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" />
+            </div>
+            <div class=" d-flex flex-row">
+                <img onclick="display('sectionhappymeals')" class="homepage-bottom-margin homepage-bottom" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" />
+                <img onclick="display('sectionnewsoftheday')" class="homepage-bottom-margin homepage-bottom" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" />
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionadvancedtechnologie">
+        <div class="bg-image d-flex flex-column justify-content-end ">
+            <div class="card-container   ">
+                <div class="card-padding  ">
+                    <h1 class="card-container-main-heading">Advanced Technologies</h1>
+                    <p class="card-container-paragraph">Machine and equipment developed from the application of scientific knowledge.</p>
+                </div>
+                <button class="button1">learn more</button>
+                <button class="button2 " onclick="display('myprojecthomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondiwalipage">
+        <div class="topsection-container">
+            <h1 class="topsection-container-heading">Celebrate Diwali with your friends</h1>
+        </div>
+        <div class="bottomsection-container ">
+            <div class=" d-flex flex-row justify-content-center">
+                <div class="bottomsection-cardcontainer">
+                    <img class="diwali-card" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" />
+                    <p class="card-name">Diwali Air Ballon</p>
+                    <p class="card-price">Rs 369</p>
+                </div>
+                <div class="bottomsection-cardcontainer">
+                    <img class="diwali-card" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" />
+                    <p class="card-name">Diwali Lamp</p>
+                    <p class="card-price">Rs 50</p>
+                </div>
+            </div>
+
+            <div class=" d-flex flex-row justify-content-center">
+                <div class="bottomsection-cardcontainer">
+                    <img class="diwali-card" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" />
+                    <p class="card-name">Fireworks</p>
+                    <p class="card-price">Rs 150</p>
+                </div>
+                <div class="bottomsection-cardcontainer">
+                    <img class="diwali-card" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" />
+                    <p class="card-name">Firecrackers</p>
+                    <p class="card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('myprojecthomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionhappymeals">
+        <div class="bg-card d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="heading">Happy Meals</h1>
+                <div class="parabtn">
+                    <p>Discover the best foods over the 1,000 restaurants</p>
+                    <button class="click">Book Now</button>
+                    <button class="btn btn-primary" onclick="display('myprojecthomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnewsoftheday">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card-container">
+                <p> NEWS OF THE DAY</p>
+                <h1 class="main-heading">iB Circket announces world's first Virtual REality Circket League</h1>
+                <p class="paragraph">iB Circket and Viu together have announced the World's first virtual relaity cricket league featuring 12 international cricketers, who will be competing against each other for the iB Cricket Super Over League title in Mumbai Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league.</p>
+                <button class="button"> Read more</button>
+                <button class="btn btn-primary" onclick="display('myprojecthomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
